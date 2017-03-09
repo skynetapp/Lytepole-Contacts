@@ -1,3 +1,7 @@
+#### Date: 08/03/2017
+
+#### Description: This document explains the code flow of Contacts.
+
 #### Step 1:
 
 Function **controlBulkInvalidUpload** will be called first from index.php to controller. when user adds not csv file or empty and click on submit button in bulk upload.
