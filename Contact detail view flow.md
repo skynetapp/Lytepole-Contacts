@@ -3,7 +3,7 @@
 Function **controlContactDetailViewFlow** will be called frist from index.php to controller which takes the inputs from the user, when user clicks on contacts detail view it will call this function. From this function we call the wsdl to get the contacts detail view and displays.
 
 - Function **createContactListInputVO** will create the value objects from controller to action.
-- In action, user id will be set by function **getUserID**.
+- In action, user id will be called and append to input array by function **getUserID**.
 - Function **createContactListInputVO** will be called in action from ContactsData.php which gets the values from input array and sets the values for list value object to pass for WSDL call. It will prepare the query and required input to create contact.
 - The list value object array result will be returned to controller.
 
@@ -24,5 +24,5 @@ Function **controlContactDetailViewFlow** will be called frist from index.php to
 
 - Function **showContactDetailView** which takes the input data object and gives to the contacts Detail view.
 - The list data object array will be user id, first name, last name, email, home phone, mobile, work phone.
-- In action, function **showContactDetailView** will be called which displays the tpl page.
-- The display tpl page will be **ContactsDetailView.tpl** in views folder.
+- In action, function **showContactDetailView** from ContactsView.php will be called which displays the tpl page.
+- The display tpl page will be **ContactsNotesViewForm.tpl** in views folder.
