@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of Creating Log event.
+
 #### Step 1:
 
 Function **controlCreateLogevent** will be called first from index.php to controller which takes the inputs from the user. when user enters data in logevent new create form and click on save this function will call and using the wsdl it will create the new logevent.
