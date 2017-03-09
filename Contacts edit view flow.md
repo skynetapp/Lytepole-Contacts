@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of Contact Edit flow.
+
 #### Step 1:
 
 Function **controlContactEditFlow** will be called first which takes the inputs from the user, when user clicks on edit contact it will call this function. From this function we call the wsdl to edit contact.
