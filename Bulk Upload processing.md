@@ -1,3 +1,8 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of Bulk upload Processing of Contacts using csv file.
+
+
 #### Step 1:
 
 Function **controlBulkUploadProcessing** will be called first from index.php to controller which is used for uloading csv file for bulk uploading of contacts.
