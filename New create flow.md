@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of Contact in new create job invitees.
+
 #### Step 1:
 
 Function **controlNewCreateFlow** will be called first from index.php to controller which takes the inputs from the user, when user enters data in contact in new create job invitees. click on save this function will call and using the wsdl it will create the new contact.
