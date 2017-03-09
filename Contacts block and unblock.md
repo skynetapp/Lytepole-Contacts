@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of Contact Block and unblock.
+
 #### Step 1:
 
 Function **controlContactBlock** will be called first in index.php to controller which takes the inputs from the user, when user clicks on block contact it will call this function. From this function we call the wsdl to block the selected contact.
