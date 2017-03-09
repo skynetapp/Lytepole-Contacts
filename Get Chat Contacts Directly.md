@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of getting chat Contacts directly from DB.
+
 #### Step 1:
 
 Function **getChatContactsDirect** will be called first from index.php to controller which gets the contacts directly from DB without using the WS call.
