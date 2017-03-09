@@ -1,3 +1,7 @@
+#### Date: 09/03/2017
+
+#### Description: This document explains the code flow of new note form in Contacts.
+
 #### Step 1:
 
 Function **showNewNoteForm** will be called first from index.php to controller. when user clicks on notes in contact deatil view its call this function and this
